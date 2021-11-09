@@ -1,0 +1,5 @@
+version: "2"
+services:
+  mongo_config_1:
+    container_name: mongo_config1
+    image: mongo
