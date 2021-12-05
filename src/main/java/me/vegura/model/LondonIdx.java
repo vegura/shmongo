@@ -8,7 +8,7 @@ import org.bson.codecs.pojo.annotations.BsonProperty;
 
 import java.math.BigDecimal;
 
-@MongoEntity(collection = "london_idx")
+@MongoEntity(collection = "london_postcodes")
 @Data
 @Accessors(chain = true)
 public class LondonIdx {

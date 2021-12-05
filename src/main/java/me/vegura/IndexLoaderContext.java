@@ -4,7 +4,7 @@ import io.quarkus.runtime.StartupEvent;
 import lombok.extern.slf4j.Slf4j;
 import me.vegura.model.LondonIdx;
 import me.vegura.repo.LondonIdxRepo;
-import me.vegura.resource.LondonIndexesCsvParser;
+import me.vegura.parsers.LondonIndexesCsvParser;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -14,7 +14,7 @@ import java.util.Set;
 
 @ApplicationScoped
 @Slf4j
-public class ApplicationListener {
+public class IndexLoaderContext {
 
     // Variables
 

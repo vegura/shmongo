@@ -1,0 +1,19 @@
+london:
+  idx:
+    parse-and-save: false
+
+taxi:
+  shard:
+    uri: mongodb://localhost:27019
+    database: taxi
+    shardCollections:
+      - collection: london_postcodes
+        shardingField: postcode
+
+quarkus:
+  mongodb:
+    connection-string: mongodb://localhost:27019
+    database: taxi
+
+  console:
+    color: true

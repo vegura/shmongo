@@ -1,4 +1,4 @@
-package me.vegura.resource;
+package me.vegura.parsers;
 
 import java.util.Set;
 
